@@ -1,2 +1,6 @@
 build --cxxopt=-std=c++14 --host_cxxopt=-std=c++14
 build --test_output=errors
+
+# Use WFA Bazel registry.
+common --registry=https://raw.githubusercontent.com/world-federation-of-advertisers/bazel-registry/main
+common --registry=https://bcr.bazel.build
